@@ -13,6 +13,11 @@ namespace decode15dc.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
+#if DNX451
+            ViewBag.ServerName = Environment.MachineName;
+#else
+            ViewBag.ServerName = "";
+#endif
             return View();
         }
     }
