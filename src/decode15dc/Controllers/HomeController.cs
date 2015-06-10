@@ -6,7 +6,7 @@ using Microsoft.AspNet.Mvc;
 
 // For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace decode15dc.Controllers
+namespace decode15.Controllers
 {
     public class HomeController : Controller
     {
